@@ -24,6 +24,14 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
 
+
+// import mahima from "../../public/mahima.png";
+// import ngo from "../../public/Noble.png";
+// import Education from "../../public/meduraa.png";
+// import AgriTech from "../../public/sstech.png";
+// import Healthcare from "../../public/window.png";
+
+
 const Index = () => {
   const services = [
     {
