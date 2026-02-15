@@ -24,13 +24,11 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
 
-
-// import mahima from "../../public/mahima.png";
-// import ngo from "../../public/Noble.png";
-// import Education from "../../public/meduraa.png";
-// import AgriTech from "../../public/sstech.png";
-// import Healthcare from "../../public/window.png";
-
+import mahima from "../assets/mahima.png";
+import ngo from "../assets/Noble.png";
+import Education from "../assets/meduraa.png";
+import AgriTech from "../assets/sstech.png";
+import Healthcare from "../assets/window.png";
 
 const Index = () => {
   const services = [
@@ -99,11 +97,11 @@ const Index = () => {
   ];
 
   const clients = [
-    { name: "Noble Citizen Foundation", type: "NGO", logo: "/Noble.png" },
-    { name: "Mahima Medicare", type: "Healthcare", logo: "/mahima.png" },
-    { name: "Meduraa", type: "Education", logo: "/meduraa.png" },
-    { name: "SS Tech Farming", type: "AgriTech", logo: "/sstech.png" },
-    { name: "window-to-bhara", type: "Healthcare", logo: "/window.png" },
+    { name: "Noble Citizen Foundation", type: "NGO", logo: ngo },
+    { name: "Mahima Medicare", type: "Healthcare", logo: mahima },
+    { name: "Meduraa", type: "Education", logo: Education },
+    { name: "SS Tech Farming", type: "AgriTech", logo: AgriTech },
+    { name: "window-to-bhara", type: "Healthcare", logo: Healthcare },
   ];
   const [selectedImage, setSelectedImage] = useState(null);
 
